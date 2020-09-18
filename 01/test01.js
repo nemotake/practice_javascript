@@ -10,9 +10,9 @@ if (answer1 > 0) {
 var animals = ["パンダ" , "ライオン" ,"キリン"];
 var answer2 = prompt("好きな動物は何ですか？");
 var i = 0;
-while (i <= animals.length) {
+while (i < animals.length) {
     if(answer2 == "ライオン"){
-        alert("[１]");
+        alert("ライオンの添字：１");
         break;
     }else{
   alert(animals[i]);
