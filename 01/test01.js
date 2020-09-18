@@ -10,13 +10,14 @@ if (answer1 > 0) {
 var animals = ["パンダ" , "ライオン" ,"キリン"];
 var answer2 = prompt("好きな動物は何ですか？");
 var i = 0;
-while (i < animals.length) {
+while (i <= animals.length) {
     if(answer2 == "ライオン"){
-        alert(animals.index0f(1));
+        alert("[１]");
         break;
-    }
+    }else{
   alert(animals[i]);
   i++; 
+    }
 }
 
 var animals2 = [
